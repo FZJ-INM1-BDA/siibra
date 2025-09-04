@@ -23,13 +23,13 @@ jobs:
     - name: Build documentation
       id: build
       run: |
-        sphinx-build -b html docs _build/html
+        sphinx-build -b html docs docs/_build/html
 
     - name: Upload files as artifact
       id: deployment
       uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
       with:
-        path: docs/_build/
+        path: docs/_build/html/
 
   deploy:
     environment:
