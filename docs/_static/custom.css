@@ -1,0 +1,43 @@
+/* Hide search icon and box in header */
+.bd-header .search-button__wrapper,
+button.search-button,
+#search-button,
+form.bd-search {
+    display: none !important;
+}
+
+
+/* Hide sidebar toggle icon (hamburger) */
+.sidebar-toggle,
+.bd-header .sidebar-toggle {
+    display: none !important;
+}
+
+/* Hide left TOC sidebar */
+.bd-sidebar-primary {
+    display: none !important;
+}
+
+/* Hide right content TOC if shown */
+.bd-sidebar-secondary {
+    display: none !important;
+}
+
+/* Make main content stretch full width */
+.bd-main {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 2rem !important;
+}
+
+/* Make content container full width */
+.bd-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+.bd-content {
+    max-width: 100% !important;
+}
