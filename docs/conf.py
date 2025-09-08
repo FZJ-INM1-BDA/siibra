@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0, os.path.abspath("."))
 
 project = "siibra"
-html_title = "siibra - Software interface for interacting with brain atlases"
+html_title = "Software interface for interacting with brain atlases"
 copyright = "2020-2025, Forschungszentrum Juelich GmbH"
 author = "Big Data Analytics Group, Institute of Neuroscience and Medicine, Forschungszentrum Juelich GmbH"
 language = "en"
