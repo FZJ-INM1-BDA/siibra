@@ -1,13 +1,12 @@
-======
 siibra
 ======
 
 .. raw:: html
 
-    <div style="text-align: center; margin-top: 2em;">
-        <img src="_static/siibra-logo-lightmode.png" class="only-light" style="width: 600px;" />
-        <img src="_static/siibra-logo-darkmode.png" class="only-dark" style="width: 600px;" />
-    </div>
+   <div style="text-align: center; margin-top: 2em;">
+      <img src="_static/siibra-logo-lightmode.png" class="only-light" style="width: 600px;" />
+      <img src="_static/siibra-logo-darkmode.png" class="only-dark" style="width: 600px;" />
+   </div>
 
 .. grid:: 12 12 12 12
    :gutter: 4

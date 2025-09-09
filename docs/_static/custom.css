@@ -41,3 +41,8 @@ form.bd-search {
 .bd-content {
     max-width: 100% !important;
 }
+
+/* filepath: docs/_static/custom.css */
+.bd-content h1:first-child {
+    display: none !important;
+}
